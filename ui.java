@@ -1,3 +1,4 @@
+package ui;
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
@@ -47,6 +48,8 @@ public class ui {
 				tempDB.setLocation(400, 200);
 				tempDB.setTitle("Employee Database");
 				tempDB.setVisible(true);
+				add tempDB2 = new add();
+				tempDB = tempDB2.addButton(tempDB);
 			}          
 	      });
 		
@@ -57,6 +60,8 @@ public class ui {
 				tempDB.setLocation(400, 200);
 				tempDB.setTitle("Branch Database");
 				tempDB.setVisible(true);
+				add tempDB2 = new add();
+				tempDB = tempDB2.addButton(tempDB);
 			}          
 	      });
 		
@@ -67,6 +72,8 @@ public class ui {
 				tempDB.setLocation(400, 200);
 				tempDB.setTitle("Supplier Database");
 				tempDB.setVisible(true);
+				add tempDB2 = new add();
+				tempDB = tempDB2.addButton(tempDB);
 			}          
 	      });
 		
@@ -77,6 +84,8 @@ public class ui {
 				tempDB.setLocation(400, 200);
 				tempDB.setTitle("Member Database");
 				tempDB.setVisible(true);
+				add tempDB2 = new add();
+				tempDB = tempDB2.addButton(tempDB);
 			}          
 	      });
 		
@@ -87,6 +96,8 @@ public class ui {
 				tempDB.setLocation(400, 200);
 				tempDB.setTitle("Book Database");
 				tempDB.setVisible(true);
+				add tempDB2 = new add();
+				tempDB = tempDB2.addButton(tempDB);
 			}          
 	      });
 	
@@ -97,6 +108,8 @@ public class ui {
 				tempDB.setLocation(400, 200);
 				tempDB.setTitle("DVD Database");
 				tempDB.setVisible(true);
+				add tempDB2 = new add();
+				tempDB = tempDB2.addButton(tempDB);
 			}          
 	      });
 		
@@ -107,8 +120,10 @@ public class ui {
 				tempDB.setLocation(400, 200);
 				tempDB.setTitle("Hardware Database");
 				tempDB.setVisible(true);
+				add tempDB2 = new add();
+				tempDB = tempDB2.addButton(tempDB);
 			}          
 	      });
 	}
-
 }
+
