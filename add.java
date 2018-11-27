@@ -9,9 +9,11 @@ import javax.swing.JFrame;
 
 public class add{
 	public JFrame addButton(JFrame frame){
+		//Creating the buttons
 		JButton insertButton = new JButton("Insertion");
 		JButton selectButton = new JButton("Selection");
 		
+		//action listeners for insert and selection, put code here
 		insertButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 
@@ -22,6 +24,8 @@ public class add{
 				
 			}
 		});
+		
+		//add and return 
 		frame.add(insertButton, BorderLayout.EAST);
 		frame.add(selectButton, BorderLayout.WEST);
 		return frame;
