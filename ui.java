@@ -41,6 +41,8 @@ public class ui {
 		buttons.setLayout(new BoxLayout(buttons, BoxLayout.LINE_AXIS));
 		menu.add(buttons, BorderLayout.CENTER);
 		
+		
+		//you can take the code from add and place it in here for indivdual cases.
 		EmployeeTable.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				JFrame tempDB = new JFrame();
