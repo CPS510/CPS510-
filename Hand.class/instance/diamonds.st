@@ -1,0 +1,3 @@
+adding
+diamonds
+	^ diamonds

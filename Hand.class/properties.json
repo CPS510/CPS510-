@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Assignment1",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"allCards",
+		"clubs",
+		"hearts",
+		"diamonds",
+		"spades",
+		"suits"
+	],
+	"name" : "Hand",
+	"type" : "normal"
+}

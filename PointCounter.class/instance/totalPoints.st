@@ -1,0 +1,3 @@
+accessing
+totalPoints
+	^ totalPoints
